@@ -27,7 +27,7 @@ const upDown = keyframes`
     transform: translateY(0);
   }
   to {
-    transform: translateY(30px);
+    transform: translateY(40px);
   }
 `
 
@@ -41,11 +41,11 @@ const upDownWide = keyframes`
 `
 
 const upDownAnimation = css`
-  ${upDown} 4s ease-in-out infinite alternate;
+  ${upDown} 5s ease-in-out infinite alternate;
 `
 
 const upDownWideAnimation = css`
-  ${upDownWide} 18s ease-in-out infinite alternate;
+  ${upDownWide} 16s ease-in-out infinite alternate;
 `
 
 export const UpDown = styled.div`

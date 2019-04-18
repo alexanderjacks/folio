@@ -63,73 +63,67 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-          Hello, <br /> I'm John Doe.
+          Hello, <br /> I'm Alexander Jacks.
         </BigTitle>
-        <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+        <Subtitle>I enjoy building hybrid app / websites (Progressive Web Apps) for small businesses and nonprofits.</Subtitle>
       </Hero>
       <Projects offset={1}>
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Freiheit"
-            link="https://www.behance.net/gallery/58937147/Freiheit"
-            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+            title="Fight The Ban"
+            link="https://www.fighttheban.org/"
+            bg="linear-gradient(to bottom right, #D4145A 0%, #FBB03B 100%)"
           >
-            This project is my entry to Adobe's #ChallengeYourPerspective contest.
+            Nonprofit promotional site built as a volunteer effort with Gatsby-- it's a smart way to build static React apps that load fast and look and feel like mobile experiences. Go ahead and add this website to your Home Screen! (Gatsby framework)
           </ProjectCard>
           <ProjectCard
-            title="Harry Potter"
-            link="https://www.behance.net/gallery/52915793/Harry-Potter"
-            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+            title="Colors of Crypto"
+            link="https://colors-crypto.firebaseapp.com/"
+            bg="linear-gradient(to bottom right, #662D8C 0%, #ED1E79 100%)"
           >
-            I entered the DOCMA 2017 award with this Harry Potter inspired image.
+            Listing of the current 100 most valuable crypto-currencies, according to 'real money' investment-- updates via API every 5 minutes. I built this React app for personal use, when I was hobby speculating in crypto markets in early 2018. A quick way to slice through the hundreds of coin and altcoin markets. (Create React App platform)
           </ProjectCard>
           <ProjectCard
-            title="Tomb Raider"
-            link="https://www.behance.net/gallery/43907099/Tomb-Raider"
-            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
+            title="Blackwood Housekeeping"
+            link="https://www.cinderellabychoice.com/"
+            bg="linear-gradient(to bottom left, #D585FF 0%, #004488 100%)"
           >
-            Recreation of a Tomb Raider Wallpaper (Fan Art)
+            Example of a business site built in the Weebly CMS. Responsive design and custom graphics created with Sketch. Plan to embed business tools like text scheduling and booking on the site itself. (Weebly platform)
           </ProjectCard>
           <ProjectCard
-            title="Eagle"
-            link="https://www.behance.net/gallery/38068151/Eagle"
-            bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+            title="How To Crypto"
+            link="https://how-to-crypto.herokuapp.com/"
+            bg="linear-gradient(to bottom right, #009245 0%, #33CC33 100%)"
           >
-            A fantasy image manipulation relocating the habitat of wild animals.
+            My first tutorial site, also an exploration of the impressive MDBootstrap library. I planned out the required steps to do stuff with crypto-currency, then used FontAwesome and screencaps to organize the information. (Angular.io framework)
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
-        <Title>About</Title>
+        <Title>About:</Title>
         <AboutHero>
           <Avatar src={avatar} alt="John Doe" />
           <AboutSub>
-            The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-            Emoji into my speech to better express myself. Winky face.
+            Web developer building custom apps. Working on cloud and PWA skills in 2019. Gatsby/React, JavaScript, Python, AWS. Currently Portland, Oregon, USA.
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-          every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-          make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The kids
-          want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that all
-          right?
+          Why do I love building software in the cloud? Because it's fun to wield so much power! My background in network management helps me appreciate the serverless, elastic world that's emerging-- my natural entrepreneur spirit keeps me restless to build faster and smarter, and to keep leveraging the newest technologies.
         </AboutDesc>
       </About>
       <Contact offset={4}>
         <Inner>
-          <Title>Get in touch</Title>
+          <Title>Reach out:</Title>
           <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+            <a href="mailto:alexdjacks@gmail.com">Fire off an email</a> or find me on{' '}
+            <a href="https://www.linkedin.com/in/alexander-jacks/">LinkedIn</a> &{' '}
+            <a href="https://www.instagram.com/a.d.jacks/">Instagram</a>
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2019 by Gatsby Starter Portfolio Cara.{' '}
-          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>. Made by{' '}
-          <a href="https://www.lekoarts.de">LekoArts</a>.
+          <a href="https://github.com/alexanderjacks/folio">Source Code</a>. Crafted by{' '}
+          <a href="https://www.alexanderjacks.info/">AlexJacksApps</a>.
         </Footer>
       </Contact>
     </Parallax>
