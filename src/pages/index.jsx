@@ -73,28 +73,28 @@ const Index = () => (
           <ProjectCard
             title="Fight The Ban"
             link="https://www.fighttheban.org/"
-            bg="linear-gradient(to bottom right, #D4145A 0%, #FBB03B 100%)"
+            bg="linear-gradient(to bottom right, #FF1493 0%, #191970 100%)"
           >
             Nonprofit promotional site built as a volunteer effort with Gatsby-- it's a smart way to build static React apps that load fast and look and feel like mobile experiences. Go ahead and add this website to your Home Screen! (Gatsby framework)
           </ProjectCard>
           <ProjectCard
             title="Colors of Crypto"
             link="https://colors-crypto.firebaseapp.com/"
-            bg="linear-gradient(to bottom right, #662D8C 0%, #ED1E79 100%)"
+            bg="linear-gradient(to bottom right, #ff0000 0%, #00FF7F 100%)"
           >
             Listing of the current 100 most valuable crypto-currencies, according to 'real money' investment-- updates via API every 5 minutes. I built this React app for personal use, when I was hobby speculating in crypto markets in early 2018. A quick way to slice through the hundreds of coin and altcoin markets. (Create React App platform)
           </ProjectCard>
           <ProjectCard
             title="Blackwood Housekeeping"
             link="https://www.cinderellabychoice.com/"
-            bg="linear-gradient(to bottom left, #D585FF 0%, #004488 100%)"
+            bg="linear-gradient(to top left, #853387 0%, #1e79b2 100%)"
           >
             Example of a business site built in the Weebly CMS. Responsive design and custom graphics created with Sketch. Plan to embed business tools like text scheduling and booking on the site itself. (Weebly platform)
           </ProjectCard>
           <ProjectCard
             title="How To Crypto"
             link="https://how-to-crypto.herokuapp.com/"
-            bg="linear-gradient(to bottom right, #009245 0%, #33CC33 100%)"
+            bg="linear-gradient(to bottom right, #00bfff 0%, #ff8c00 100%)"
           >
             My first tutorial site, also an exploration of the impressive MDBootstrap library. I planned out the required steps to do stuff with crypto-currency, then used FontAwesome and screencaps to organize the information. (Angular.io framework)
           </ProjectCard>
@@ -105,11 +105,11 @@ const Index = () => (
         <AboutHero>
           <Avatar src={avatar} alt="John Doe" />
           <AboutSub>
-            Web developer building custom apps. Working on cloud and PWA skills in 2019. Gatsby/React, JavaScript, Python, AWS. Currently Portland, Oregon, USA.
+            Web developer building custom apps. Focusing on cloud and PWAs. Portland, Oregon, USA in 2019.
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          Why do I love building software in the cloud? Because it's fun to wield so much power! My background in network management helps me appreciate the serverless, elastic world that's emerging-- my natural entrepreneur spirit keeps me restless to build faster and smarter, and to keep leveraging the newest technologies.
+          Why do I love building software in the cloud? Because it's fun to wield so much power! My background in network management helps me appreciate the serverless, elastic world that's emerging-- my natural entrepreneur spirit keeps me restless to build faster and smarter, and to keep leveraging the newest technologies like serverless/lambda, GraphQL (the JAMstack architecture).
         </AboutDesc>
       </About>
       <Contact offset={4}>
