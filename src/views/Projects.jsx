@@ -7,6 +7,7 @@ import { UpDown, UpDownWide } from '../styles/animations'
 import { colors } from '../../tailwind'
 import SVG from '../components/SVG'
 
+
 const Projects = ({ children, offset }) => (
   <>
     <DividerMiddle

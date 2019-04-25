@@ -209,12 +209,12 @@ module.exports = {
       'sans-serif',
     ],
     serif: [
+      'Lucida',
       'Cantata One',
       'Constantia',
       'Lucida Bright',
       'Lucidabright',
       'Lucida Serif',
-      'Lucida',
       'DejaVu Serif',
       'Bitstream Vera Serif',
       'Liberation Serif',
