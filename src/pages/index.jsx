@@ -109,7 +109,7 @@ const Index = () => (
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          Why do I love building software in the cloud? Because it's fun to wield so much power! My background in network management helps me appreciate the serverless, elastic world that's emerging-- my natural entrepreneur spirit keeps me restless to build faster and smarter, and to keep leveraging the newest technologies like serverless/lambda, GraphQL (the JAMstack architecture).
+          Why do I love building software in the cloud? Because it's fun to wield so much power! My background in network management helps me appreciate the serverless, elastic world that's emerging-- my natural entrepreneur spirit keeps me restless to build faster and smarter, and to keep leveraging the newest technologies like serverless/lambda and GraphQL (the JAMstack architecture).
         </AboutDesc>
       </About>
       <Contact offset={4}>

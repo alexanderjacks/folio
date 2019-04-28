@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="196" height="221" viewBox="0 0 196 221">
+  <g fill="none" fill-rule="evenodd" transform="translate(-7 -7.483)">
+    <circle cx="183.5" cy="72.983" r="19.5" fill="#E535AB"/>
+    <circle cx="183.221" cy="163.466" r="19.5" fill="#E535AB" transform="rotate(60 183.221 163.466)"/>
+    <circle cx="104.721" cy="208.466" r="19.5" fill="#E535AB" transform="rotate(120 104.721 208.466)"/>
+    <circle cx="26.5" cy="162.983" r="19.5" fill="#E535AB" transform="rotate(180 26.5 162.983)"/>
+    <circle cx="26.779" cy="72.5" r="19.5" fill="#E535AB" transform="rotate(-120 26.779 72.5)"/>
+    <circle cx="105.279" cy="27.5" r="19.5" fill="#E535AB" transform="rotate(-60 105.279 27.5)"/>
+    <polygon stroke="#E535AB" stroke-width="10" points="104.5 25.483 183.741 71.233 183.741 162.733 104.5 208.483 25.259 162.733 25.259 71.233" stroke-linejoin="round"/>
+    <polygon stroke="#E535AB" stroke-width="10" points="104.5 25.483 183.741 162.733 25.259 162.733" stroke-linejoin="round"/>
+  </g>
+</svg>
