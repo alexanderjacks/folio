@@ -118,7 +118,10 @@ const Index = () => (
           <ContactText>
             <a href="mailto:alexdjacks@gmail.com">Fire off an email</a> or find me on{' '}
             <a href="https://www.linkedin.com/in/alexander-jacks/">LinkedIn</a> &{' '}
-            <a href="https://www.instagram.com/a.d.jacks/">Instagram</a>
+            <a href="https://www.instagram.com/a.d.jacks/">Instagram</a>.
+            <p>
+              Here's a <a href="https://s3.amazonaws.com/bux4jax/_resume_Alexander_Jacks.pdf">current resume</a>.
+            </p>
           </ContactText>
         </Inner>
         <Footer>
