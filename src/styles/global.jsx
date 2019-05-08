@@ -4,6 +4,10 @@ const GlobalStyle = createGlobalStyle`
   *, *:before, *:after {
     box-sizing: inherit;
   }
+  @import url('https://fonts.googleapis.com/css?family=Audiowide');
+  h1 {
+    font-family: 'Audiowide', sans-serif;
+  }
   html {
     text-rendering: optimizeLegibility;
     overflow-x: hidden;

@@ -202,6 +202,7 @@ module.exports = {
       'Roboto',
       'Oxygen',
       'Ubuntu',
+      'Audiowide',
       'Cantarell',
       'Fira Sans',
       'Droid Sans',
