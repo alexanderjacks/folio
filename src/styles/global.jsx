@@ -8,6 +8,9 @@ const GlobalStyle = createGlobalStyle`
   h1 {
     font-family: 'Audiowide', sans-serif;
   }
+  h2 {
+    font-family: 'Audiowide', sans-serif;
+  }
   html {
     text-rendering: optimizeLegibility;
     overflow-x: hidden;

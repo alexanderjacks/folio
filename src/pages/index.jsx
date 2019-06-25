@@ -71,11 +71,11 @@ const Index = () => (
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Fight The Ban"
-            link="https://www.fighttheban.org/"
-            bg="linear-gradient(to bottom right, #FF1493 0%, #191970 100%)"
+            title="Store Demo, Marijuana Software"
+            link="https://jacksstorefrontdemo.azurewebsites.net/Home/Products"
+            bg="linear-gradient(to top left, navy 25%, green 100%)"
           >
-            Nonprofit promotional site built as a volunteer effort with Gatsby-- it's a smart way to build static React apps that load fast and look and feel like mobile experiences. Go ahead and add this website to your Home Screen! (Gatsby framework)
+            Dot.net retail site deployed on Azure. Uses jQuery to build & sort an inventory built via commercial API with an AJAX call.
           </ProjectCard>
           <ProjectCard
             title="Colors of Crypto"
@@ -85,11 +85,11 @@ const Index = () => (
             Listing of the current 100 most valuable crypto-currencies, according to 'real money' investment-- updates via API every 5 minutes. I built this React app for personal use, when I was hobby speculating in crypto markets in early 2018. A quick way to slice through the hundreds of coin and altcoin markets. (Create React App platform)
           </ProjectCard>
           <ProjectCard
-            title="Blackwood Housekeeping"
-            link="https://www.cinderellabychoice.com/"
-            bg="linear-gradient(to top left, #853387 0%, #1e79b2 100%)"
+            title="Fight The Ban"
+            link="https://www.fighttheban.org/"
+            bg="linear-gradient(to bottom right, #FF1493 0%, #191970 100%)"
           >
-            Example of a business site built in the Weebly CMS. Responsive design and custom graphics created with Sketch. Plan to embed business tools like text scheduling and booking on the site itself. (Weebly platform)
+            Nonprofit promotional site built with the Gatsby Web App framework-- it's a smart way to build static React apps that load fast and look and feel like mobile experiences. Go ahead and add this website to your Home Screen!
           </ProjectCard>
           <ProjectCard
             title="How To Crypto"
