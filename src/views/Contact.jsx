@@ -14,10 +14,10 @@ const WaveWrapper = styled.div`
 `
 
 const InnerWave = styled.div`
-  ${tw`relative h-full`};
+  ${tw`relative h-screen`};
   svg {
     width: 100%;
-    height: 40vh;
+    height: 80vh;
   }
   path {
     ${waveAnimation('20s')};

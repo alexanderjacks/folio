@@ -75,14 +75,14 @@ const Index = () => (
             link="https://jacksstorefrontdemo.azurewebsites.net/Home/Products"
             bg="linear-gradient(to top left, navy 25%, green 100%)"
           >
-            Dot.net retail site deployed on Azure. Uses jQuery to build & sort an inventory built via commercial API with an AJAX call.
+            Dot.net retail site deployed on Azure. Dynamic and sortable inventory logic written in jQuery; populates from a commercial API with an AJAX call.
           </ProjectCard>
           <ProjectCard
             title="Colors of Crypto"
             link="https://colors-crypto.firebaseapp.com/"
             bg="linear-gradient(to bottom right, #ff0000 0%, #00FF7F 100%)"
           >
-            Listing of the current 100 most valuable crypto-currencies, according to 'real money' investment-- updates via API every 5 minutes. I built this React app for personal use, when I was hobby speculating in crypto markets in early 2018. A quick way to slice through the hundreds of coin and altcoin markets. (Create React App platform)
+            A quick way to sift through the most popular coin and altcoin markets, I built this React app for personal use when I was hobby speculating in crypto in 2018. It lists the current 100 most valuable cryptocurrencies, according to 'real money' investment, and updates via a public API every 5 minutes.
           </ProjectCard>
           <ProjectCard
             title="Fight The Ban"
