@@ -68,35 +68,49 @@ const Index = () => (
         <Subtitle>I enjoy building hybrid app / websites (Progressive Web Apps) for small businesses and nonprofits.</Subtitle>
       </Hero>
       <Projects offset={1}>
-        <Title>Projects</Title>
+        <Title>Work Examples</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Store Demo, Marijuana Software"
+            title="storefront for commercial API"
             link="https://jacksstorefrontdemo.azurewebsites.net/Home/Products"
             bg="linear-gradient(to top left, navy 25%, green 100%)"
           >
-            Dot.net retail site deployed on Azure. Dynamic and sortable inventory logic written in jQuery; populates from a commercial API with an AJAX call.
+            Dot.net retail site built around client (Marijuana Software) API and deployed on Azure. Dynamic and sortable inventory logic written in jQuery; populates from a commercial API with an AJAX call.
           </ProjectCard>
           <ProjectCard
-            title="Colors of Crypto"
+            title="custom dashboard from open data"
             link="https://colors-crypto.firebaseapp.com/"
-            bg="linear-gradient(to bottom right, #ff0000 0%, #00FF7F 100%)"
+            bg="linear-gradient(to bottom right, #990000 40%, deepskyblue 100%)"
           >
-            A quick way to sift through the most popular coin and altcoin markets, I built this React app for personal use when I was hobby speculating in crypto in 2018. It lists the current 100 most valuable cryptocurrencies, according to 'real money' investment, and updates via a public API every 5 minutes.
+            Colors of Crypto is a custom project built around an open resource. It lists the current 100 most valuable cryptocurrencies, according to 'real money' investment, and updates every 5 minutes. Hosted on Google Cloud (Firebase), operating under Fair Use copyright law.
           </ProjectCard>
           <ProjectCard
-            title="Fight The Ban"
+            title="Progressive App (Hybrid Website)"
             link="https://www.fighttheban.org/"
-            bg="linear-gradient(to bottom right, #FF1493 0%, #191970 100%)"
+            bg="linear-gradient(to bottom right, black 0%, #191970 100%)"
           >
-            Nonprofit promotional site built with the Gatsby Web App framework-- it's a smart way to build static React apps that load fast and look and feel like mobile experiences. Go ahead and add this website to your Home Screen!
+            A modern website can function like an app store app. Here's an example of a progressive web app I built for a client-- it's a website that can install to your homescreen like an app, and it downloads enough content to function even when offline. Hosted with the Netlify serverless platform, built in Gatsby. 
           </ProjectCard>
           <ProjectCard
-            title="How To Crypto"
-            link="https://how-to-crypto.herokuapp.com/"
-            bg="linear-gradient(to bottom right, #00bfff 0%, #ff8c00 100%)"
+            title="Custom WordPress"
+            link="http://minorityvets.com/"
+            bg="linear-gradient(to bottom right, #f15d4e 10%, #04476d 100%)"
           >
-            My first tutorial site, also an exploration of the impressive MDBootstrap library. I planned out the required steps to do stuff with crypto-currency, then used FontAwesome and screencaps to organize the information. (Angular.io framework)
+            Upgrade to existing nonprofit homepage (Minority Veterans of America). I conducted a cost-saving migration to AWS Lightsail and then customized the site styling to meet client's vision.
+          </ProjectCard>
+          <ProjectCard
+            title="Tutorial Site"
+            link="https://how-to-crypto.herokuapp.com/"
+            bg="linear-gradient(to bottom right, navy 10%, darkorange 100%)"
+          >
+            How To Crypto is set of guides built with an industry favorite Material Design library (MDBootstrap). I planned out the required steps to acquire and exchange cryptocurrency, then used FontAwesome and screencaps to organize the information. Built with the Angular framework and hosted for free on Heroku.
+          </ProjectCard>
+          <ProjectCard
+            title="WIP index app via web scraping"
+            link="https://www.stardewdex.com/"
+            bg="linear-gradient(to bottom right, forestgreen 50%, wheat 100%)"
+          >
+            A work-in-progress side project (React, AWS serverless), built from data scraped from a wiki (Python scripts). 
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
@@ -105,7 +119,7 @@ const Index = () => (
         <AboutHero>
           <Avatar src={avatar} alt="John Doe" />
           <AboutSub>
-            Web developer building custom apps. Focusing on cloud and PWAs. Portland, Oregon, USA in 2019.
+            Freelance web developer building custom apps. Focusing on cloud and PWAs. Portland, Oregon, USA in 2019.
           </AboutSub>
         </AboutHero>
         <AboutDesc>
@@ -114,8 +128,14 @@ const Index = () => (
       </About>
       <Contact offset={4}>
         <Inner>
-          <Title>Reach out:</Title>
+          <Title>Reach out</Title>
           <ContactText>
+            <p>
+              Do you need a website upgrade? I'd love to discuss some awesome options with you.
+            </p>
+            <p>
+              Do you have web, cloud, or data tech work that needs a jack-of-many-trades?
+            </p>
             <a href="mailto:alexdjacks@gmail.com">Fire off an email</a> or find me on{' '}
             <a href="https://www.linkedin.com/in/alexander-jacks/">LinkedIn</a> &{' '}
             <a href="https://www.instagram.com/a.d.jacks/">Instagram</a>.
