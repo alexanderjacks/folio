@@ -82,7 +82,7 @@ const Index = () => (
             link="https://colors-crypto.firebaseapp.com/"
             bg="linear-gradient(to bottom right, #990000 40%, deepskyblue 100%)"
           >
-            Colors of Crypto is a custom project built around an open resource. It lists the current 100 most valuable cryptocurrencies, according to 'real money' investment, and updates every 5 minutes. Hosted on Google Cloud (Firebase), operating under Fair Use copyright law.
+            Colors of Crypto is a custom project built around an open resource. It lists the current 100 most valuable cryptocurrencies, according to 'real money' investment, and updates every 5 minutes. React frontend deployed on Google Cloud (Firebase), operating under Fair Use copyright law.
           </ProjectCard>
           <ProjectCard
             title="Progressive App (Hybrid Website)"
@@ -93,7 +93,7 @@ const Index = () => (
           </ProjectCard>
           <ProjectCard
             title="Custom WordPress"
-            link="http://minorityvets.com/"
+            link="http://minorityvets.org/"
             bg="linear-gradient(to bottom right, #f15d4e 10%, #04476d 100%)"
           >
             Upgrade to existing nonprofit homepage (Minority Veterans of America). I conducted a cost-saving migration to AWS Lightsail and then customized the site styling to meet client's vision.
@@ -115,7 +115,7 @@ const Index = () => (
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
-        <Title>About:</Title>
+        <Title>About Jacks</Title>
         <AboutHero>
           <Avatar src={avatar} alt="John Doe" />
           <AboutSub>
@@ -141,6 +141,9 @@ const Index = () => (
             <a href="https://www.instagram.com/a.d.jacks/">Instagram</a>.
             <p>
               Here's a <a href="https://s3.amazonaws.com/bux4jax/_resume_Alexander_Jacks.pdf">current resume</a>.
+            </p>
+            <p>
+              Hope your day is going well. ☮️
             </p>
           </ContactText>
         </Inner>
